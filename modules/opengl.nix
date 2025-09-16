@@ -2,7 +2,7 @@
 
 {
 
-services.xserver.videoDrivers = ["amdgpu"];
+# services.xserver.videoDrivers = ["amdgpu"];
 
 hardware = {
   graphics = {
@@ -10,6 +10,8 @@ hardware = {
   
 
   extraPackages = with pkgs; [
+  libva
+  libva-utils
   mesa
   vulkan-loader
   vulkan-tools
