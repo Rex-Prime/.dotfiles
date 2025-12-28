@@ -47,16 +47,6 @@ in
       fi 
       '')
       ''
-      # ZSH options for performance
-      setopt NO_BEEP
-      setopt NO_LIST_BEEP
-      
-      # History configuration
-      HISTSIZE=1000
-      SAVEHIST=1000
-      setopt HIST_IGNORE_ALL_DUPS
-      setopt HIST_SAVE_NO_DUPS
-
       # Keybindings
       bindkey '^H' backward-kill-word
     ''
